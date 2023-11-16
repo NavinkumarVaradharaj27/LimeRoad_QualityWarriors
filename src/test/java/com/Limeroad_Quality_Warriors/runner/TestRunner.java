@@ -20,9 +20,9 @@ public class TestRunner extends BaseClass {
 	
 	@BeforeClass
 	public static void browserLaunch() {
-
+		//baseclass method
 		getDriver("chrome");
-
+       
 	}
 	
 	
